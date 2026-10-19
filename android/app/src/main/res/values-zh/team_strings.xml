@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_team_title">团队协作</string>
+    <string name="pref_team_disabled">已关闭 · 每项任务由单个 Agent 执行</string>
+    <string name="pref_team_enabled_summary">已开启 · 每项任务 %1$d tokens · 最多 %2$d 个助手</string>
+    <string name="pref_team_help">允许助手处理部分任务，保存后用于新任务。额度按输入与输出 token 累计，与模型上下文窗口分别设置；缺少用量时按估算计入，不代表实际账单。</string>
+    <string name="pref_team_total_budget">任务总额度（输入 + 输出 tokens）</string>
+    <string name="pref_team_finalization_reserve">收尾预留（tokens）</string>
+    <string name="pref_team_max_children">同时运行的助手（1–2）</string>
+    <string name="pref_team_child_steps">每个助手最多步骤</string>
+    <string name="pref_team_save">保存并启用</string>
+    <string name="pref_team_turn_off">关闭协作</string>
+    <string name="pref_team_invalid_limits">请填写正整数。收尾预留须小于总额度，助手数须为 1 或 2。</string>
+    <string name="pref_team_invalid_saved">已保存的额度无效，请检查后重新保存。</string>
+</resources>

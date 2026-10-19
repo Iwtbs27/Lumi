@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="6dp"
+    android:layout_marginEnd="24dp"
+    android:background="@drawable/bg_ui_card"
+    android:orientation="vertical"
+    android:padding="18dp">
+    <TextView
+        android:id="@+id/message_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/execution_message_agent"
+        android:textColor="@color/color_accent"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="@color/on_surface"
+        android:textSize="15sp" />
+</LinearLayout>

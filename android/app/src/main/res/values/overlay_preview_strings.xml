@@ -1,0 +1,10 @@
+<resources>
+    <string name="overlay_show_preview">Show virtual screen</string>
+    <string name="overlay_show_steps">Show steps</string>
+    <string name="overlay_minimize">Collapse to floating bubble</string>
+    <string name="overlay_preview_description">Agent virtual screen preview</string>
+    <string name="overlay_preview_loading">Loading virtual screen…</string>
+    <string name="overlay_preview_unavailable">Virtual screen temporarily unavailable</string>
+    <string name="overlay_step_running">Step %1$d · Running</string>
+    <string name="overlay_step_debug">Step %1$d / %2$d</string>
+</resources>

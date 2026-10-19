@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_team_title">Agent team</string>
+    <string name="pref_team_disabled">Off · One agent handles each task</string>
+    <string name="pref_team_enabled_summary">On · %1$d tokens per task · Up to %2$d helpers</string>
+    <string name="pref_team_help">Helpers can process parts of a task. These limits apply to new tasks and count total input + output tokens, separately from the model context window. Missing usage is estimated, not a billing amount.</string>
+    <string name="pref_team_total_budget">Task total (input + output tokens)</string>
+    <string name="pref_team_finalization_reserve">Reserved for finishing (tokens)</string>
+    <string name="pref_team_max_children">Active helpers (1–2)</string>
+    <string name="pref_team_child_steps">Maximum steps per helper</string>
+    <string name="pref_team_save">Save and enable</string>
+    <string name="pref_team_turn_off">Turn off</string>
+    <string name="pref_team_invalid_limits">Enter positive whole numbers. The reserve must be less than the total, and active helpers must be 1 or 2.</string>
+    <string name="pref_team_invalid_saved">Saved limits are invalid. Review and save them again.</string>
+</resources>

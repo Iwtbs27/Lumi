@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="im_task_queued">任务 %1$d 已加入队列。</string>
+    <string name="im_no_owned_task">当前聊天没有正在执行的任务可停止。</string>
+</resources>

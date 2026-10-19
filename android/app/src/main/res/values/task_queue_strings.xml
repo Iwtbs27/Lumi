@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="task_queue_title">Tasks</string>
+    <string name="task_queue_add">Add independent task</string>
+    <string name="task_queue_input_hint">What should this task do?</string>
+    <string name="task_queue_empty">No tasks yet. Add one above to begin.</string>
+    <string name="task_queue_connecting">Connecting to the task service. New tasks will still be saved.</string>
+    <string name="task_queue_help">Tasks run in order. Adding a task does not replace the current one.</string>
+    <string name="task_queue_current">%1$s · Current task</string>
+    <string name="task_queue_queued">Queued</string>
+    <string name="task_queue_running">Running</string>
+    <string name="task_queue_waiting">Waiting for your reply</string>
+    <string name="task_queue_paused">Paused · still holds the screen</string>
+    <string name="task_queue_parked">Suspended · screen released</string>
+    <string name="task_queue_interrupted">Interrupted · ready to requeue</string>
+    <string name="task_queue_succeeded">Completed</string>
+    <string name="task_queue_failed">Failed</string>
+    <string name="task_queue_cancelled">Cancelled</string>
+    <string name="task_queue_pause">Pause</string>
+    <string name="task_queue_resume">Continue</string>
+    <string name="task_queue_park">Suspend and run next</string>
+    <string name="task_queue_requeue">Requeue</string>
+    <string name="task_queue_cancel">Cancel task</string>
+    <string name="task_queue_cancel_queued">Cancel queued task</string>
+    <string name="task_queue_reply">Reply</string>
+    <string name="task_queue_handoff">Open task screen</string>
+    <string name="task_queue_open">View conversation</string>
+    <string name="task_queue_more">More</string>
+    <string name="task_queue_more_for">More actions for %1$s</string>
+    <string name="task_queue_park_explanation">This ends the current execution and releases the screen. Continue this task later by choosing Requeue.</string>
+    <string name="task_queue_saved_start_failed">Task saved. The service could not start; open Tasks again to retry.</string>
+    <string name="task_queue_start_failed">Task execution could not start. Saved tasks remain in the list; reopen this page to retry.</string>
+    <string name="task_queue_not_active">This task is no longer active. Check its status in Tasks.</string>
+    <string name="task_queue_input_required">Enter a task first.</string>
+    <string name="task_queue_reply_hint">Reply to the current task</string>
+    <string name="task_queue_error">Could not complete the operation: %1$s</string>
+    <string name="task_queue_open_button">Tasks</string>
+</resources>

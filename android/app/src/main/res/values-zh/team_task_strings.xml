@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="team_task_title">任务助手</string>
+    <string name="team_task_summary">任务助手：进行中 %1$d 项 · 已完成 %2$d 项</string>
+    <string name="team_task_help">助手核对资料、处理数据或编写程序，结果由主任务复核。</string>
+    <string name="team_task_role_coding">代码助手</string>
+    <string name="team_task_role_research">资料核对</string>
+    <string name="team_task_role_status">%1$s · %2$s</string>
+    <string name="team_task_queued">排队中</string>
+    <string name="team_task_running">处理中</string>
+    <string name="team_task_completed">已完成</string>
+    <string name="team_task_needs_evidence">需要补充资料</string>
+    <string name="team_task_needs_execution">待主任务执行</string>
+    <string name="team_task_outputs_count">已生成 %1$d 项产物</string>
+    <string name="team_task_program_revision">程序版本 %1$d</string>
+    <string name="team_task_child_review">仅核对本次运行结果，仍由主任务复核。</string>
+    <string name="team_task_failed">处理失败</string>
+    <string name="team_task_cancelled">已取消</string>
+    <string name="team_task_interrupted">已中断</string>
+    <string name="team_task_stale">任务要求已变化，这些结果需要再次复核。</string>
+    <string name="team_task_facts">核对结果</string>
+    <string name="team_task_source_step_label">来源：步骤 %1$d · %2$s</string>
+    <string name="team_task_source_step">来源：步骤 %1$d</string>
+    <string name="team_task_source_label">来源：%1$s</string>
+    <string name="team_task_source_material">来源：已收集资料</string>
+    <string name="team_task_review_pending">主任务审核：待审核</string>
+    <string name="team_task_review_accepted">主任务审核：已采用</string>
+    <string name="team_task_review_rejected">主任务审核：已拒绝</string>
+    <string name="team_task_review_reason">审核说明：%1$s</string>
+    <string name="team_task_gaps">资料缺口</string>
+    <string name="team_task_collect">需要主任务处理</string>
+    <string name="team_task_cancel">取消这项子任务</string>
+    <string name="team_task_cancel_named">取消子任务：%1$s</string>
+</resources>

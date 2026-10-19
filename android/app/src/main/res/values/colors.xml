@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFF7F3</color>
+
+    <!-- Surface / Background colors (light defaults) -->
+    <color name="surface">#FFF8F5</color>
+    <color name="surface_container">#F4ECF8</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_overlay_10">#1A000000</color>
+    <color name="surface_overlay_5">#0D000000</color>
+    <color name="surface_overlay_13">#221A1A1A</color>
+    <color name="surface_overlay_20">#331A1A1A</color>
+    <color name="surface_panel">#F5FFF8F5</color>
+    <color name="surface_banner">#F5FFF8F5</color>
+    <color name="surface_pill">#F5FFF8F5</color>
+    <color name="surface_island">#F5FFF8F5</color>
+
+    <!-- Text colors (light defaults) -->
+    <color name="on_surface">#352044</color>
+    <color name="on_surface_medium">#705D7D</color>
+    <color name="on_surface_high">#493953</color>
+    <color name="on_surface_full">#352044</color>
+    <color name="on_surface_muted">#796A84</color>
+    <color name="on_surface_hint">#796A84</color>
+    <color name="on_surface_subtle">#796A84</color>
+    <color name="text_caption">#705D7D</color>
+    <color name="text_subtitle">#564561</color>
+    <color name="text_link">#7540B8</color>
+    <color name="text_back_button">#7540B8</color>
+    <color name="text_countdown">#7540B8</color>
+    <color name="text_cycle">#6F617A</color>
+    <color name="text_on_bubble_user">#3C2559</color>
+
+    <!-- Dialog actions -->
+    <color name="dialog_action">#7540B8</color>
+
+    <!-- Brand / Semantic colors -->
+    <color name="color_accent">#7540B8</color>
+    <color name="color_success">#27744E</color>
+    <color name="color_danger">#B73552</color>
+    <color name="color_info">#4969A8</color>
+    <color name="color_progress_green">#7540B8</color>
+    <color name="color_countdown_light">#9CC7FF</color>
+    <color name="surface_elevated">#FFFFFF</color>
+    <color name="brand_container">#F0E7FC</color>
+    <color name="on_brand_container">#563080</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="outline">#E5DAEC</color>
+    <color name="success_container">#E2F3E8</color>
+    <color name="danger_container">#FCE5EB</color>
+    <color name="brand_pink">#FAD6E8</color>
+    <color name="brand_lavender">#C9B4FF</color>
+    <color name="brand_purple">#8B5CF6</color>
+    <color name="brand_cream">#FFF7F3</color>
+</resources>

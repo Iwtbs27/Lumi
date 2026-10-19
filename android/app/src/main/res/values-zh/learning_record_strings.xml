@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="learning_delete_record">删除记录</string>
+    <string name="learning_delete_description">删除记录：%1$s</string>
+    <string name="learning_delete_title">删除这条学习记录？</string>
+    <string name="learning_delete_body">%1$s\n\n将移除此记录、未保存结果和录制素材，并停止相关后台整理。已保存的记忆及其证据会保留。</string>
+    <string name="learning_delete_active">请先结束录制或交还控制，再删除这条记录。</string>
+    <string name="learning_delete_done">学习记录已删除</string>
+    <string name="learning_discard_hint">丢弃会停止采用这段素材；删除会将记录从列表中移除。</string>
+</resources>

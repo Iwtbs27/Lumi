@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity
+            android:name="ai.opencyvis.debug.GuiNoteFixtureActivity"
+            android:exported="true"
+            android:excludeFromRecents="true" />
+        <provider
+            android:name="ai.opencyvis.debug.TraceExportProvider"
+            android:authorities="${applicationId}.trace"
+            android:exported="true"
+            android:readPermission="android.permission.DUMP" />
+    </application>
+</manifest>

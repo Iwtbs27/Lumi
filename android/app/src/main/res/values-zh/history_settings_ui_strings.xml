@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hs_history_title">任务记录</string>
+    <string name="hs_detail_title">任务详情</string>
+    <string name="hs_history_subtitle">回顾每一次任务的过程与结果。</string>
+    <string name="hs_history_search">搜索任务</string>
+    <string name="hs_filter_all">全部</string>
+    <string name="hs_status_completed">已完成</string>
+    <string name="hs_status_running">进行中</string>
+    <string name="hs_status_failed">失败</string>
+    <string name="hs_status_stopped">已停止</string>
+    <string name="hs_today">今天</string>
+    <string name="hs_yesterday">昨天</string>
+    <string name="hs_history_empty_title">从第一个任务开始</string>
+    <string name="hs_history_empty_body">在首页发起任务，执行过程与结果会保存在这里。</string>
+    <string name="hs_history_no_results_title">没有找到匹配的任务</string>
+    <string name="hs_history_no_results_body">试试其他关键词，或切换任务状态。</string>
+    <string name="hs_history_loading">正在加载任务…</string>
+    <string name="hs_history_help">点击查看执行过程，长按可删除记录。</string>
+    <string name="hs_back">返回</string>
+    <string name="hs_delete">删除</string>
+    <string name="hs_send">发送</string>
+    <string name="hs_view">查看画面</string>
+    <string name="hs_stop">停止</string>
+    <string name="hs_resume">继续</string>
+    <string name="hs_input_answer">输入你的回答…</string>
+    <string name="hs_input_task">描述你想完成的任务…</string>
+    <string name="hs_input_supplement">补充任务信息…</string>
+    <string name="hs_input_handoff">补充接管说明…</string>
+    <string name="hs_agent_stopped">任务已停止</string>
+    <string name="hs_task_error">出错了：%1$s</string>
+    <string name="hs_settings_subtitle">按你的习惯配置 Lumi。</string>
+    <string name="hs_settings_tasks">任务与记忆</string>
+    <string name="hs_settings_access">设备访问</string>
+    <string name="hs_backend_title">连接方式</string>
+    <string name="hs_backend_detecting">正在检查连接…</string>
+    <string name="hs_backend_revoke">断开设备访问</string>
+    <string name="hs_backend_revoke_summary">断开连接并查看设置说明</string>
+</resources>

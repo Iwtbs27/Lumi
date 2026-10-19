@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_execution_files">任务文件夹</string>
+    <string name="pref_execution_files_unset">选择用于处理文件和保存结果的文件夹</string>
+    <string name="pref_execution_files_count">已授权文件夹：%1$d</string>
+    <string name="pref_execution_add_folder">添加文件夹</string>
+    <string name="pref_execution_remove_folder">移除此文件夹的访问权限？</string>
+    <string name="pref_execution_remove">移除权限</string>
+    <string name="pref_execution_calendar">日历访问</string>
+    <string name="pref_execution_calendar_unset">允许任务读取和修改设备上的日历</string>
+    <string name="pref_execution_calendar_ready">已取得读写权限，可使用设备上可访问的日历</string>
+</resources>

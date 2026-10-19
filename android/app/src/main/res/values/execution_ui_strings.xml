@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="execution_message_agent">Lumi</string>
+    <string name="execution_message_you">Your request</string>
+    <string name="execution_message_answer">Your reply</string>
+    <string name="execution_message_supplement">Additional information</string>
+    <string name="execution_message_question">Your reply is needed</string>
+    <string name="execution_message_result">Task result</string>
+    <string name="execution_message_debug">Execution details</string>
+    <string name="execution_message_status">Task progress</string>
+    <string name="execution_running">Working on your task</string>
+    <string name="execution_controls">Task controls</string>
+    <string name="execution_idle">Ready</string>
+    <string name="execution_finished">Task finished</string>
+    <string name="execution_error">Task interrupted</string>
+    <string name="execution_paused">Task paused</string>
+    <string name="execution_handoff">Waiting for your action</string>
+    <string name="execution_takeover">You are in control</string>
+    <string name="execution_close">Close</string>
+    <string name="execution_send">Send</string>
+    <string name="execution_voice">Voice input</string>
+    <string name="execution_stop_voice">Stop voice input</string>
+    <string name="execution_task_review_hint">Recording your takeover. Return control to continue the task; review starts when it ends.</string>
+    <string name="execution_recording_hint">Recording your actions. Add an explanation when finished.</string>
+    <string name="execution_recording_paused">Recording paused. Resume to continue capturing.</string>
+    <string name="execution_finish_demo">Finish demonstration</string>
+    <string name="execution_return_control">Finish and return control</string>
+    <string name="execution_switch_app">Switch app</string>
+    <string name="execution_app_back">Go back in app</string>
+</resources>

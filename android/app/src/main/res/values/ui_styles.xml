@@ -1,0 +1,4 @@
+<resources>
+    <style name="OpenCyvis.NavigationIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator"><item name="android:color">@color/brand_container</item></style>
+    <style name="OpenCyvis.Ui.Section" parent="TextAppearance.Material3.TitleMedium"><item name="android:textSize">18sp</item><item name="android:textColor">@color/on_surface</item><item name="android:fontFamily">sans-serif-medium</item></style>
+</resources>

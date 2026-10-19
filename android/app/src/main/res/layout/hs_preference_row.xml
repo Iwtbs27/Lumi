@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp" android:minHeight="76dp"
+    android:orientation="horizontal" android:gravity="center_vertical"
+    android:padding="16dp" android:background="@drawable/bg_ui_card"
+    android:foreground="?attr/selectableItemBackground">
+    <FrameLayout android:id="@+id/icon_frame"
+        android:layout_width="40dp" android:layout_height="40dp"
+        android:layout_marginEnd="14dp" android:background="@drawable/bg_ui_tonal">
+        <ImageView android:id="@android:id/icon"
+            android:layout_width="22dp" android:layout_height="22dp"
+            android:layout_gravity="center" app:tint="@color/color_accent"
+            android:importantForAccessibility="no" />
+    </FrameLayout>
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:orientation="vertical">
+        <TextView android:id="@android:id/title"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="15sp" android:textColor="@color/on_surface"
+            android:fontFamily="sans-serif-medium" />
+        <TextView android:id="@android:id/summary"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" android:textSize="13sp"
+            android:textColor="@color/on_surface_medium" />
+    </LinearLayout>
+    <LinearLayout android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginStart="10dp" android:orientation="vertical"
+        android:gravity="center" />
+</LinearLayout>

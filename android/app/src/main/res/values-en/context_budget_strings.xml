@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_context_budget_title">Context budget</string>
+    <string name="pref_context_budget_custom">Custom / edit current values</string>
+    <string name="pref_context_budget_unset">Required: select the effective context window for this model</string>
+    <string name="pref_context_budget_summary">Tokens · Window %1$d · Input %2$d · Compact at %3$d · Target %4$d</string>
+    <string name="pref_context_budget_help" formatted="false">Use the deployed model’s actual context window. K = 1,000 tokens. Presets can be edited. Compaction starts at 75% of the input budget and targets 50%. Changing the model or service requires setting this again.</string>
+    <string name="pref_context_budget_window">Context window (tokens)</string>
+    <string name="pref_context_budget_output">Reserved output / retry ceiling (tokens)</string>
+    <string name="pref_context_budget_margin" formatted="false">Estimation margin (% of context window)</string>
+    <string name="pref_context_budget_working">Working input limit (optional, tokens)</string>
+    <string name="pref_context_budget_invalid_number">%1$s: enter an integer</string>
+</resources>

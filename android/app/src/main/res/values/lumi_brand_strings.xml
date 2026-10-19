@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="lumi_notification_ready">Lumi is ready</string>
+    <string name="lumi_notification_running">Lumi is working on your task</string>
+    <string name="lumi_notification_channel">Lumi tasks</string>
+    <string name="lumi_setup_backend_description">Choose how Lumi controls apps on your phone.</string>
+    <string name="lumi_setup_shizuku_description">Shizuku is running. Grant Lumi access to continue.</string>
+    <string name="lumi_view_title">Lumi · Task</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_nav_home">首页</string>
+    <string name="ui_nav_history">记录</string>
+    <string name="ui_nav_memory">记忆</string>
+    <string name="ui_nav_settings">设置</string>
+    <string name="ui_home_intro">今天，有什么想交给我做的？</string>
+    <string name="ui_task_hint">告诉 Lumi 你想做什么…</string>
+    <string name="ui_ready">准备就绪</string>
+    <string name="ui_ready_profile">已就绪 · %1$s</string>
+    <string name="ui_running">正在执行任务</string>
+    <string name="ui_running_step">执行中 · 第 %1$d / %2$d 步</string>
+    <string name="ui_paused">任务已暂停</string>
+    <string name="ui_error">任务中断</string>
+    <string name="ui_waiting_answer">等待你的回复</string>
+    <string name="ui_waiting_handoff">需要你接管操作</string>
+    <string name="ui_answer_hint">在这里回复…</string>
+    <string name="ui_view_task">查看操作</string>
+    <string name="ui_resume_task">继续任务</string>
+    <string name="ui_stop_task">停止任务</string>
+    <string name="ui_voice_input">语音输入</string>
+    <string name="ui_voice_stop">停止录音</string>
+    <string name="ui_send">发送</string>
+    <string name="ui_recommended">常用任务</string>
+    <string name="ui_quick_actions">试试这样开始</string>
+    <string name="ui_recent_tasks">最近的任务</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mem_restore_revision">Restore this version</string>
+    <string name="mem_restore_revision_title">Restore v%1$d?</string>
+    <string name="mem_restore_revision_body">Save the selected content as a new version. Version history and the current enabled or disabled state are retained.</string>
+    <string name="mem_job_format_repairs">Output format repairs: %1$d</string>
+    <string name="mem_job_validation_error">Last output validation issue: %1$s</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="learning_delete_record">Delete record</string>
+    <string name="learning_delete_description">Delete record: %1$s</string>
+    <string name="learning_delete_title">Delete this learning record?</string>
+    <string name="learning_delete_body">%1$s\n\nRemove this record, unpublished results, and recording files, and stop its background processing. Saved memories and their evidence are kept.</string>
+    <string name="learning_delete_active">Finish the recording or return control before deleting this record.</string>
+    <string name="learning_delete_done">Learning record deleted</string>
+    <string name="learning_discard_hint">Discard stops using the recording. Delete removes the record from this list.</string>
+</resources>

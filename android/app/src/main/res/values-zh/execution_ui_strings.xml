@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="execution_message_agent">Lumi</string>
+    <string name="execution_message_you">你的任务</string>
+    <string name="execution_message_answer">你的回复</string>
+    <string name="execution_message_supplement">补充信息</string>
+    <string name="execution_message_question">需要你的回复</string>
+    <string name="execution_message_result">执行结果</string>
+    <string name="execution_message_debug">执行详情</string>
+    <string name="execution_message_status">任务进展</string>
+    <string name="execution_running">正在执行任务</string>
+    <string name="execution_controls">任务控制</string>
+    <string name="execution_idle">已就绪</string>
+    <string name="execution_finished">任务已结束</string>
+    <string name="execution_error">任务中断</string>
+    <string name="execution_paused">任务已暂停</string>
+    <string name="execution_handoff">等待你操作</string>
+    <string name="execution_takeover">正在由你操作</string>
+    <string name="execution_close">收起</string>
+    <string name="execution_send">发送</string>
+    <string name="execution_voice">语音输入</string>
+    <string name="execution_stop_voice">停止语音输入</string>
+    <string name="execution_task_review_hint">正在记录接管操作。交还后继续任务，任务结束后自动复盘。</string>
+    <string name="execution_recording_hint">正在记录你的操作，结束时可补充说明。</string>
+    <string name="execution_recording_paused">录制已暂停，恢复后继续记录。</string>
+    <string name="execution_finish_demo">结束演示</string>
+    <string name="execution_return_control">结束并交还</string>
+    <string name="execution_switch_app">切换应用</string>
+    <string name="execution_app_back">返回应用上一页</string>
+</resources>

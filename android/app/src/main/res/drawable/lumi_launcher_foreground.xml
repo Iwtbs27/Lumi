@@ -1,0 +1,1 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item android:width="72dp" android:height="72dp" android:gravity="center" android:drawable="@drawable/lumi_mascot"/></layer-list>

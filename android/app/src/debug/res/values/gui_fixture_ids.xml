@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="gui_fixture_page" type="id" />
+    <item name="gui_fixture_title" type="id" />
+    <item name="gui_fixture_body" type="id" />
+    <item name="gui_fixture_save" type="id" />
+    <item name="gui_fixture_status" type="id" />
+    <item name="gui_fixture_saved_title" type="id" />
+    <item name="gui_fixture_saved_body" type="id" />
+</resources>

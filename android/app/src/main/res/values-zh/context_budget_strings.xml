@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_context_budget_title">上下文预算</string>
+    <string name="pref_context_budget_custom">自定义 / 修改当前数值</string>
+    <string name="pref_context_budget_unset">待设置：请选择当前模型实际可用的上下文窗口</string>
+    <string name="pref_context_budget_summary">窗口 %1$d · 输入 %2$d · 整理阈值 %3$d · 压缩目标 %4$d token</string>
+    <string name="pref_context_budget_help" formatted="false">请按模型部署的实际窗口设置，K 按 1,000 token 计算。预设数值可修改；达到输入预算的 75% 时整理，压缩目标为 50%。更换模型或服务地址后需重新设置。</string>
+    <string name="pref_context_budget_window">上下文窗口（token）</string>
+    <string name="pref_context_budget_output">输出预留 / 重试上限（token）</string>
+    <string name="pref_context_budget_margin" formatted="false">估算余量（占上下文窗口的百分比）</string>
+    <string name="pref_context_budget_working">工作输入上限（可选，token）</string>
+    <string name="pref_context_budget_invalid_number">%1$s：请填写整数</string>
+</resources>

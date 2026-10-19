@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="team_task_title">Task helpers</string>
+    <string name="team_task_summary">Task helpers: %1$d active · %2$d completed</string>
+    <string name="team_task_help">Helpers check materials, process data or prepare programs. The main task reviews their results.</string>
+    <string name="team_task_role_coding">Coding helper</string>
+    <string name="team_task_role_research">Material check</string>
+    <string name="team_task_role_status">%1$s · %2$s</string>
+    <string name="team_task_queued">Queued</string>
+    <string name="team_task_running">Working</string>
+    <string name="team_task_completed">Completed</string>
+    <string name="team_task_needs_evidence">Needs more information</string>
+    <string name="team_task_needs_execution">Waiting for the main task to run</string>
+    <string name="team_task_outputs_count">Outputs: %1$d</string>
+    <string name="team_task_program_revision">Program version %1$d</string>
+    <string name="team_task_child_review">Checked for this run. The main task still reviews the result.</string>
+    <string name="team_task_failed">Helper failed</string>
+    <string name="team_task_cancelled">Cancelled</string>
+    <string name="team_task_interrupted">Interrupted</string>
+    <string name="team_task_stale">The task changed. These findings need another review.</string>
+    <string name="team_task_facts">Findings</string>
+    <string name="team_task_source_step_label">Source: Step %1$d · %2$s</string>
+    <string name="team_task_source_step">Source: Step %1$d</string>
+    <string name="team_task_source_label">Source: %1$s</string>
+    <string name="team_task_source_material">Source: Collected material</string>
+    <string name="team_task_review_pending">Main task review: Pending</string>
+    <string name="team_task_review_accepted">Main task review: Accepted</string>
+    <string name="team_task_review_rejected">Main task review: Rejected</string>
+    <string name="team_task_review_reason">Review note: %1$s</string>
+    <string name="team_task_gaps">Missing information</string>
+    <string name="team_task_collect">Needs from the main task</string>
+    <string name="team_task_cancel">Cancel this helper</string>
+    <string name="team_task_cancel_named">Cancel helper: %1$s</string>
+</resources>

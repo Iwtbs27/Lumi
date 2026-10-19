@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pill_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_island"
+    android:padding="8dp"
+    android:elevation="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView android:layout_width="24dp" android:layout_height="24dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="8dp" android:src="@drawable/ic_ui_logo"
+            android:importantForAccessibility="no" />
+
+        <!-- Pulsing state dot -->
+        <View
+            android:id="@+id/pill_dot"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/bg_overlay_dot" />
+
+        <!-- Task text -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pill_task"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/on_surface_full"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-medium"
+                android:singleLine="true"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/pill_step"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/overlay_running"
+                android:textColor="@color/on_surface_medium"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:maxLines="2"
+                android:fontFamily="sans-serif" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/pill_preview_toggle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_overlay_preview"
+            android:padding="12dp"
+            android:contentDescription="@string/overlay_show_preview"
+            app:tint="@color/color_accent" />
+
+        <ImageButton
+            android:id="@+id/pill_minimize"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_overlay_minimize"
+            android:padding="12dp"
+            android:contentDescription="@string/overlay_minimize"
+            app:tint="@color/on_surface_full" />
+
+        <ImageButton
+            android:id="@+id/pill_stop"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_ui_stop"
+            android:padding="12dp"
+            android:contentDescription="@string/overlay_stop"
+            app:tint="@color/color_danger" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pill_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/on_surface_high"
+        android:textSize="13sp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/pill_preview_container"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/bg_ui_card"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/pill_preview_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/overlay_preview_description" />
+
+        <TextView
+            android:id="@+id/pill_preview_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="24dp"
+            android:gravity="center"
+            android:text="@string/overlay_preview_loading"
+            android:textColor="@color/on_surface_medium"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+</LinearLayout>

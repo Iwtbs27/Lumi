@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lumi_learning_reviews_open">查看复盘</string>
+    <string name="lumi_learning_observation_start">设置观察</string>
+    <string name="lumi_learning_ready_help">检查下方的方法与内容，再选择保存方式。</string>
+    <string name="lumi_learning_input_help">补充这个问题后，Lumi 会继续整理草稿。</string>
+    <string name="lumi_learning_saved_help">在记忆页查看保存的内容及启用状态。</string>
+    <string name="lumi_scan_config_prompt">扫描 Lumi 配置二维码</string>
+</resources>

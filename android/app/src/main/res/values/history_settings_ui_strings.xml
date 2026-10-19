@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="hs_history_title">Task history</string>
+    <string name="hs_detail_title">Task details</string>
+    <string name="hs_history_subtitle">Your tasks, progress, and results.</string>
+    <string name="hs_history_search">Search tasks</string>
+    <string name="hs_filter_all">All</string>
+    <string name="hs_status_completed">Completed</string>
+    <string name="hs_status_running">In progress</string>
+    <string name="hs_status_failed">Failed</string>
+    <string name="hs_status_stopped">Stopped</string>
+    <string name="hs_today">Today</string>
+    <string name="hs_yesterday">Yesterday</string>
+    <string name="hs_history_empty_title">Your first task starts here</string>
+    <string name="hs_history_empty_body">Start a task from Home. Its steps and result will appear here.</string>
+    <string name="hs_history_no_results_title">No matching tasks</string>
+    <string name="hs_history_no_results_body">Try another keyword or choose a different status.</string>
+    <string name="hs_history_loading">Loading tasks…</string>
+    <string name="hs_history_help">Open a task to review its steps. Long press to delete.</string>
+    <string name="hs_back">Back</string>
+    <string name="hs_delete">Delete</string>
+    <string name="hs_send">Send</string>
+    <string name="hs_view">View screen</string>
+    <string name="hs_stop">Stop</string>
+    <string name="hs_resume">Resume</string>
+    <string name="hs_input_answer">Your answer…</string>
+    <string name="hs_input_task">Describe a task…</string>
+    <string name="hs_input_supplement">Add details…</string>
+    <string name="hs_input_handoff">Add instructions for the handoff…</string>
+    <string name="hs_agent_stopped">Task stopped</string>
+    <string name="hs_task_error">Error: %1$s</string>
+    <string name="hs_settings_subtitle">Make Lumi work your way.</string>
+    <string name="hs_settings_tasks">Tasks and memory</string>
+    <string name="hs_settings_access">Device access</string>
+    <string name="hs_backend_title">Connection method</string>
+    <string name="hs_backend_detecting">Checking connection…</string>
+    <string name="hs_backend_revoke">Disconnect device access</string>
+    <string name="hs_backend_revoke_summary">Disconnect and view setup instructions</string>
+</resources>

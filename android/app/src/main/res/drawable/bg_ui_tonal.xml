@@ -1,0 +1,3 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/surface_overlay_10">
+    <item><shape android:shape="rectangle"><solid android:color="@color/brand_container"/><corners android:radius="20dp"/></shape></item>
+</ripple>

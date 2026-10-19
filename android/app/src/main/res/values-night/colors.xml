@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Surface / Background colors (dark overrides) -->
+    <color name="surface">#1E1627</color>
+    <color name="surface_container">#281E32</color>
+    <color name="surface_card">#30243E</color>
+    <color name="surface_overlay_10">#1AFFFFFF</color>
+    <color name="surface_overlay_5">#0DFFFFFF</color>
+    <color name="surface_overlay_13">#22FFFFFF</color>
+    <color name="surface_overlay_20">#33FFFFFF</color>
+    <color name="surface_panel">#F51E1627</color>
+    <color name="surface_banner">#F51E1627</color>
+    <color name="surface_pill">#F51E1627</color>
+    <color name="surface_island">#F51E1627</color>
+
+    <!-- Text colors (dark overrides) -->
+    <color name="on_surface">#F2E9F6</color>
+    <color name="on_surface_medium">#CABAD3</color>
+    <color name="on_surface_high">#E3D5EC</color>
+    <color name="on_surface_full">#F2E9F6</color>
+    <color name="on_surface_muted">#BAA8C5</color>
+    <color name="on_surface_hint">#BAA8C5</color>
+    <color name="on_surface_subtle">#BAA8C5</color>
+    <color name="text_caption">#CABAD3</color>
+    <color name="text_subtitle">#E3D5EC</color>
+    <color name="text_link">#D1ACFF</color>
+    <color name="text_back_button">#D1ACFF</color>
+    <color name="text_countdown">#D1ACFF</color>
+    <color name="text_cycle">#CABAD3</color>
+    <color name="text_on_bubble_user">#EFDCFF</color>
+
+    <!-- Dialog actions -->
+    <color name="dialog_action">#D1ACFF</color>
+    <color name="surface_elevated">#30243E</color>
+    <color name="color_accent">#D1ACFF</color>
+    <color name="color_success">#91D8AF</color>
+    <color name="color_danger">#FFACC0</color>
+    <color name="color_info">#B2C5FF</color>
+    <color name="color_progress_green">#D1ACFF</color>
+    <color name="brand_container">#4A315E</color>
+    <color name="on_brand_container">#EFDCFF</color>
+    <color name="on_accent">#32134E</color>
+    <color name="outline">#51425F</color>
+    <color name="success_container">#253F33</color>
+    <color name="danger_container">#522B39</color>
+    <color name="brand_pink">#5A3047</color>
+</resources>

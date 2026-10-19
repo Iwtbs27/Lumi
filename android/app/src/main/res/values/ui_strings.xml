@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="ui_nav_home">Home</string>
+    <string name="ui_nav_history">History</string>
+    <string name="ui_nav_memory">Memory</string>
+    <string name="ui_nav_settings">Settings</string>
+    <string name="ui_home_intro">What would you like to get done today?</string>
+    <string name="ui_task_hint">Describe a task for Lumi…</string>
+    <string name="ui_ready">Ready when you are</string>
+    <string name="ui_ready_profile">Ready · %1$s</string>
+    <string name="ui_running">Working on your task</string>
+    <string name="ui_running_step">Working · Step %1$d / %2$d</string>
+    <string name="ui_paused">Task paused</string>
+    <string name="ui_error">Task interrupted</string>
+    <string name="ui_waiting_answer">Waiting for your answer</string>
+    <string name="ui_waiting_handoff">Your help is needed</string>
+    <string name="ui_answer_hint">Write your answer…</string>
+    <string name="ui_view_task">View task</string>
+    <string name="ui_resume_task">Resume task</string>
+    <string name="ui_stop_task">Stop task</string>
+    <string name="ui_voice_input">Voice input</string>
+    <string name="ui_voice_stop">Stop recording</string>
+    <string name="ui_send">Send</string>
+    <string name="ui_recommended">Pick up a routine</string>
+    <string name="ui_quick_actions">Try something</string>
+    <string name="ui_recent_tasks">Recent tasks</string>
+</resources>

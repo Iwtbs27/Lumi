@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="task_queue_title">任务列表</string>
+    <string name="task_queue_add">添加独立任务</string>
+    <string name="task_queue_input_hint">这个任务需要做什么？</string>
+    <string name="task_queue_empty">还没有任务。可以在上方添加。</string>
+    <string name="task_queue_connecting">正在连接任务服务，新任务仍会保存。</string>
+    <string name="task_queue_help">任务按队列依次执行。添加任务不会替换当前任务。</string>
+    <string name="task_queue_current">%1$s · 当前任务</string>
+    <string name="task_queue_queued">排队中</string>
+    <string name="task_queue_running">执行中</string>
+    <string name="task_queue_waiting">等待你回复</string>
+    <string name="task_queue_paused">已暂停 · 仍占用屏幕</string>
+    <string name="task_queue_parked">已挂起 · 已释放屏幕</string>
+    <string name="task_queue_interrupted">已中断 · 可重新排队</string>
+    <string name="task_queue_succeeded">已完成</string>
+    <string name="task_queue_failed">失败</string>
+    <string name="task_queue_cancelled">已取消</string>
+    <string name="task_queue_pause">暂停</string>
+    <string name="task_queue_resume">继续</string>
+    <string name="task_queue_park">挂起，执行下一项</string>
+    <string name="task_queue_requeue">重新排队</string>
+    <string name="task_queue_cancel">取消任务</string>
+    <string name="task_queue_cancel_queued">取消排队</string>
+    <string name="task_queue_reply">回复</string>
+    <string name="task_queue_handoff">前往处理</string>
+    <string name="task_queue_open">查看对话</string>
+    <string name="task_queue_more">更多</string>
+    <string name="task_queue_more_for">任务“%1$s”的更多操作</string>
+    <string name="task_queue_park_explanation">这会结束当前执行并释放屏幕。之后可选择“重新排队”继续此任务。</string>
+    <string name="task_queue_saved_start_failed">任务已保存，但服务未能启动；重新打开任务列表可重试。</string>
+    <string name="task_queue_start_failed">暂时无法启动任务执行，已保存的任务仍在列表中；重新打开此页可重试。</string>
+    <string name="task_queue_not_active">此任务已不再是当前任务，请到任务列表查看状态。</string>
+    <string name="task_queue_input_required">请先填写任务内容。</string>
+    <string name="task_queue_reply_hint">回复此任务</string>
+    <string name="task_queue_error">操作未完成：%1$s</string>
+    <string name="task_queue_open_button">任务</string>
+</resources>

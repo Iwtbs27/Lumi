@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/surface"
+    android:fitsSystemWindows="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="64dp"
+        android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="12dp">
+        <Button android:id="@+id/btn_back" style="@style/OpenCyvis.Button.Custom"
+            android:layout_width="48dp" android:layout_height="48dp"
+            android:contentDescription="@string/hs_back" android:drawableStart="@drawable/ic_ui_back"
+            android:drawableTint="@color/on_surface" android:padding="12dp"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="@string/hs_detail_title"
+            android:textSize="18sp" android:textColor="@color/on_surface"
+            android:fontFamily="sans-serif-medium" />
+        <Button android:id="@+id/btn_export_run" style="@style/OpenCyvis.Button.Custom"
+            android:layout_width="wrap_content" android:layout_height="48dp"
+            android:paddingHorizontal="12dp" android:text="@string/run_export_button"
+            android:textSize="13sp" android:textAllCaps="false" android:minWidth="48dp"
+            android:textColor="@color/color_accent" android:background="?attr/selectableItemBackground" />
+        <Button android:id="@+id/btn_delete" style="@style/OpenCyvis.Button.Custom"
+            android:layout_width="wrap_content" android:layout_height="48dp"
+            android:paddingHorizontal="12dp" android:text="@string/hs_delete"
+            android:textSize="13sp" android:textAllCaps="false" android:minWidth="48dp"
+            android:textColor="@color/color_danger" android:background="?attr/selectableItemBackground" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
+        android:padding="20dp" android:background="@drawable/bg_ui_card">
+        <TextView android:id="@+id/text_title" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="20sp"
+            android:textColor="@color/on_surface" android:fontFamily="sans-serif-medium"
+            android:maxLines="3" android:ellipsize="end" android:lineSpacingExtra="3dp" />
+        <TextView android:id="@+id/text_subtitle" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="13sp"
+            android:textColor="@color/on_surface_medium" android:layout_marginTop="10dp" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_messages"
+        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:paddingHorizontal="20dp" android:paddingVertical="12dp" android:clipToPadding="false" />
+    <LinearLayout android:id="@+id/active_controls"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@color/surface_card"
+        android:paddingHorizontal="20dp" android:paddingVertical="16dp" android:visibility="gone">
+        <LinearLayout android:id="@+id/active_action_buttons"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center" android:visibility="gone"
+            android:paddingBottom="12dp">
+            <Button android:id="@+id/btn_active_view" style="@style/OpenCyvis.Button.Custom"
+                android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1"
+                android:layout_marginEnd="6dp" android:text="@string/hs_view"
+                android:textSize="14sp" android:textColor="@color/on_brand_container"
+                android:background="@drawable/bg_ui_tonal" android:textAllCaps="false" />
+            <Button android:id="@+id/btn_active_stop" style="@style/OpenCyvis.Button.Custom"
+                android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1"
+                android:layout_marginStart="6dp" android:text="@string/hs_stop"
+                android:textSize="14sp" android:textColor="@color/color_danger"
+                android:background="@drawable/bg_ui_danger" android:textAllCaps="false" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <EditText android:id="@+id/edit_active_input"
+                android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1"
+                android:layout_marginEnd="10dp" android:hint="@string/hs_input_answer"
+                android:inputType="text" android:background="@drawable/bg_ui_tonal"
+                android:paddingHorizontal="16dp" android:textSize="15sp"
+                android:textColor="@color/on_surface" android:textColorHint="@color/on_surface_medium"
+                android:maxLines="1" />
+            <Button android:id="@+id/btn_active_send" style="@style/OpenCyvis.Button.Custom"
+                android:layout_width="56dp" android:layout_height="52dp" android:padding="0dp"
+                android:text="@string/hs_send" android:textAllCaps="false" android:textSize="14sp"
+                android:textColor="@color/on_accent" android:background="@drawable/bg_btn_send" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

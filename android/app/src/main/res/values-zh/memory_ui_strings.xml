@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mui_memory_subtitle">留住有用的方法与知识，下次做事用得上。</string>
+    <string name="mui_add_memory">添加记忆</string>
+    <string name="mui_learning_title">教会 Lumi</string>
+    <string name="mui_learning_subtitle">主动教学、查看接管复盘，或授权观察。</string>
+    <string name="mui_learning_open">开始学习</string>
+    <string name="mui_memory_count">%1$d 条记忆 · %2$d 条已启用</string>
+    <string name="mui_memory_empty">还没有记忆\n教它做一个任务，或整理已有的历史经历。</string>
+    <string name="mui_search_empty">没有找到相关记忆\n试试其他名称、应用或关键词。</string>
+    <string name="mui_teach_description">完整演示一个任务，查看整理出的做法后再保存。</string>
+    <string name="mui_correct_description">查看自动记录的接管经历、复盘结果和学到的经验。</string>
+    <string name="mui_observe_description">选择应用，正常使用手机，结束录制后再整理经验。</string>
+    <string name="mui_choose_mode">学习方式</string>
+    <string name="mui_session_open">查看记录</string>
+    <string name="mui_recording_controls">录制操作</string>
+    <string name="mui_source_records">原始记录</string>
+    <string name="mui_source_description">回看这次操作的关键画面与过程。</string>
+    <string name="mui_manage_session">管理记录</string>
+    <string name="mui_review_save">保存到记忆</string>
+    <string name="mui_review_summary">这次学到了什么</string>
+    <string name="mui_review_processing">正在从录制中学习</string>
+    <string name="mui_review_error">整理需要处理</string>
+    <string name="mui_review_adjust">补充与调整</string>
+    <string name="mui_view_details">展开详情</string>
+    <string name="mui_hide_details">收起详情</string>
+</resources>

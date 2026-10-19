@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/surface"
+    android:fitsSystemWindows="true">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp" android:paddingTop="24dp"
+        android:text="@string/hs_history_title" android:textSize="28sp"
+        android:fontFamily="sans-serif-medium" android:textColor="@color/on_surface"
+        android:accessibilityHeading="true" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp" android:paddingTop="6dp" android:paddingBottom="20dp"
+        android:text="@string/hs_history_subtitle" android:textSize="14sp"
+        android:textColor="@color/on_surface_medium" />
+    <EditText android:id="@+id/history_search"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:layout_marginHorizontal="24dp" android:background="@drawable/bg_ui_card"
+        android:drawableStart="@drawable/ic_ui_search" android:drawableTint="@color/on_surface_medium"
+        android:drawablePadding="12dp" android:paddingHorizontal="16dp"
+        android:hint="@string/hs_history_search" android:textColorHint="@color/on_surface_medium"
+        android:textColor="@color/on_surface" android:textSize="15sp"
+        android:inputType="text" android:imeOptions="actionSearch" android:maxLines="1" />
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:scrollbars="none" android:clipToPadding="false" android:paddingHorizontal="24dp"
+        android:paddingTop="12dp" android:paddingBottom="4dp">
+        <com.google.android.material.chip.ChipGroup android:id="@+id/history_filters"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:singleLine="true" app:singleSelection="true" app:selectionRequired="true"
+            app:checkedChip="@id/history_filter_all" app:chipSpacingHorizontal="8dp">
+            <com.google.android.material.chip.Chip android:id="@+id/history_filter_all"
+                style="@style/Widget.Material3.Chip.Filter" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:minHeight="48dp" android:checked="true"
+                android:text="@string/hs_filter_all" app:checkedIconVisible="false" />
+            <com.google.android.material.chip.Chip android:id="@+id/history_filter_completed"
+                style="@style/Widget.Material3.Chip.Filter" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:minHeight="48dp"
+                android:text="@string/hs_status_completed" app:checkedIconVisible="false" />
+            <com.google.android.material.chip.Chip android:id="@+id/history_filter_running"
+                style="@style/Widget.Material3.Chip.Filter" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:minHeight="48dp"
+                android:text="@string/hs_status_running" app:checkedIconVisible="false" />
+            <com.google.android.material.chip.Chip android:id="@+id/history_filter_failed"
+                style="@style/Widget.Material3.Chip.Filter" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:minHeight="48dp"
+                android:text="@string/hs_status_failed" app:checkedIconVisible="false" />
+            <com.google.android.material.chip.Chip android:id="@+id/history_filter_stopped"
+                style="@style/Widget.Material3.Chip.Filter" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:minHeight="48dp"
+                android:text="@string/hs_status_stopped" app:checkedIconVisible="false" />
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_conversations"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:paddingHorizontal="24dp" android:paddingBottom="16dp" android:clipToPadding="false" />
+        <LinearLayout android:id="@+id/history_empty"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="center" android:orientation="vertical" android:gravity="center"
+            android:padding="32dp">
+            <ImageView android:layout_width="64dp" android:layout_height="64dp"
+                android:padding="18dp" android:src="@drawable/ic_ui_history"
+                app:tint="@color/color_accent" android:background="@drawable/bg_ui_tonal"
+                android:importantForAccessibility="no" />
+            <TextView android:id="@+id/history_empty_title"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" android:text="@string/hs_history_loading"
+                android:gravity="center" android:textSize="19sp" android:fontFamily="sans-serif-medium"
+                android:textColor="@color/on_surface" />
+            <TextView android:id="@+id/history_empty_body"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" android:gravity="center" android:textSize="14sp"
+                android:textColor="@color/on_surface_medium" android:lineSpacingExtra="4dp" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:id="@+id/history_help"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp" android:paddingVertical="10dp"
+        android:text="@string/hs_history_help" android:textSize="12sp"
+        android:textColor="@color/on_surface_medium" android:visibility="gone" />
+    <include layout="@layout/view_bottom_navigation" />
+</LinearLayout>

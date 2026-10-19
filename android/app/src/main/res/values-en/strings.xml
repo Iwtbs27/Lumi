@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="run_export_button">Export records</string>
+    <string name="run_export_title">Export run records</string>
+    <string name="run_export_empty">No run records are available for this conversation.</string>
+    <string name="run_export_failed">Export failed: %1$s</string>
+</resources>

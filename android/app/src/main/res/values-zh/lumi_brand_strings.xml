@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lumi_notification_ready">Lumi 已就绪</string>
+    <string name="lumi_notification_running">Lumi 正在执行任务</string>
+    <string name="lumi_notification_channel">Lumi 任务</string>
+    <string name="lumi_setup_backend_description">选择 Lumi 控制手机应用的方式。</string>
+    <string name="lumi_setup_shizuku_description">Shizuku 已运行，授权 Lumi 后即可继续。</string>
+    <string name="lumi_view_title">Lumi · 任务画面</string>
+</resources>

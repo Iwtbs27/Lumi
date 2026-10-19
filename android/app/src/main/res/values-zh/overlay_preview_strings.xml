@@ -1,0 +1,10 @@
+<resources>
+    <string name="overlay_show_preview">查看虚拟屏</string>
+    <string name="overlay_show_steps">查看步骤</string>
+    <string name="overlay_minimize">收起为悬浮球</string>
+    <string name="overlay_preview_description">Agent 虚拟屏实时预览</string>
+    <string name="overlay_preview_loading">正在读取虚拟屏…</string>
+    <string name="overlay_preview_unavailable">虚拟屏暂时不可用</string>
+    <string name="overlay_step_running">第 %1$d 步 · 运行中</string>
+    <string name="overlay_step_debug">第 %1$d / %2$d 步</string>
+</resources>

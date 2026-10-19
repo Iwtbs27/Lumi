@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="mui_memory_subtitle">Useful methods and knowledge, ready for the next task.</string>
+    <string name="mui_add_memory">Add memory</string>
+    <string name="mui_learning_title">Teach Lumi</string>
+    <string name="mui_learning_subtitle">Teach a task, review takeovers, or allow observation.</string>
+    <string name="mui_learning_open">Start learning</string>
+    <string name="mui_memory_count">%1$d memories · %2$d enabled</string>
+    <string name="mui_memory_empty">No memories yet\nTeach a task or organize past experiences to get started.</string>
+    <string name="mui_search_empty">No matching memories\nTry a different name, app, or keyword.</string>
+    <string name="mui_teach_description">Show a complete task. Review the method before saving it.</string>
+    <string name="mui_correct_description">View automatic reviews of takeovers and the experience learned from them.</string>
+    <string name="mui_observe_description">Choose apps and use your phone normally. Learn after recording.</string>
+    <string name="mui_choose_mode">Ways to learn</string>
+    <string name="mui_session_open">View session</string>
+    <string name="mui_recording_controls">Recording controls</string>
+    <string name="mui_source_records">Original recording</string>
+    <string name="mui_source_description">Review the captured screens and actions behind this result.</string>
+    <string name="mui_manage_session">Manage session</string>
+    <string name="mui_review_save">Save to memory</string>
+    <string name="mui_review_summary">What was learned</string>
+    <string name="mui_review_processing">Learning from your recording</string>
+    <string name="mui_review_error">Learning needs attention</string>
+    <string name="mui_review_adjust">Add or refine</string>
+    <string name="mui_view_details">View details</string>
+    <string name="mui_hide_details">Hide details</string>
+</resources>

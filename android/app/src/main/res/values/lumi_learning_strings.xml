@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="lumi_learning_reviews_open">View reviews</string>
+    <string name="lumi_learning_observation_start">Set up observation</string>
+    <string name="lumi_learning_ready_help">Check the methods and details below, then choose how to save them.</string>
+    <string name="lumi_learning_input_help">Answer this question so Lumi can continue preparing the draft.</string>
+    <string name="lumi_learning_saved_help">View the saved content and its enabled status on the Memory page.</string>
+    <string name="lumi_scan_config_prompt">Scan a Lumi configuration QR code</string>
+</resources>

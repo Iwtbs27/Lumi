@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Lumi · 轨迹工作台</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Lumi 轨迹工作台"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H5a2 2 0 0 0-2 2v3m13-5h3a2 2 0 0 1 2 2v3M3 16v3a2 2 0 0 0 2 2h3m8 0h3a2 2 0 0 0 2-2v-3"/><circle cx="12" cy="12" r="4"/></svg><strong>Lumi</strong><span class="brand-divider">/</span><span>轨迹工作台</span></a>
+    <div class="connection"><span class="status-dot" id="device-dot"></span><span id="device-status">正在连接服务</span></div>
+    <div class="sync-controls"><label class="switch-label"><input id="auto-sync" type="checkbox" role="switch"><span class="switch-track" aria-hidden="true"></span>自动同步</label><button id="sync-button" class="button primary"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16 7a6.5 6.5 0 0 0-11-2L2.5 7.5M2.5 3v4.5H7M4 13a6.5 6.5 0 0 0 11 2l2.5-2.5M17.5 17v-4.5H13"/></svg><span>同步最新任务</span></button></div>
+  </header>
+  <div id="service-notice" class="notice" role="status" hidden></div>
+  <section class="runbar" aria-label="选择任务">
+    <div class="run-picker"><label for="run-select">任务记录</label><select id="run-select"><option value="">正在读取任务…</option></select></div>
+    <div id="run-stats" class="run-stats"></div>
+    <span id="sync-time" class="sync-time"></span>
+  </section>
+  <main class="workspace">
+    <aside class="steps-pane" aria-label="执行步骤">
+      <div class="pane-heading"><h1>执行步骤 <span id="step-count" class="count">0</span></h1><span class="shortcut" title="聚焦步骤列表后用上下方向键切换">↑ ↓ 切换</span></div>
+      <div class="step-filter"><button data-filter="all" class="filter active" aria-pressed="true">全部</button><button data-filter="errors" class="filter" aria-pressed="false">异常 <span id="error-count">0</span></button></div>
+      <nav id="step-list" class="step-list" aria-label="选择执行步骤"><div class="loading-lines" aria-label="正在加载"><i></i><i></i><i></i><i></i></div></nav>
+      <div class="steps-footer">逐步查看实际请求与执行记录</div>
+    </aside>
+    <section class="observation-pane" aria-label="页面观测">
+      <div class="pane-heading"><h2 id="observation-title">页面观测</h2><button id="zoom-button" class="icon-button" title="放大截图" aria-label="放大截图" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3H3v4m10-4h4v4M3 13v4h4m6 0h4v-4"/></svg></button></div>
+      <div class="observation-toolbar"><div class="segmented" aria-label="截图时间"><button id="current-image" class="active" aria-pressed="true">当前观测</button><button id="next-image" aria-pressed="false" disabled>下一步观测</button></div><span id="image-step" class="muted"></span></div>
+      <div id="screenshot-stage" class="screenshot-stage"><div class="empty-state"><h3>从一次任务开始</h3><p>连接手机并同步任务，即可查看每一步的屏幕与决策。</p></div></div>
+      <div id="observation-caption" class="observation-caption">截图反映观测时刻的页面。</div>
+      <div id="step-summary" class="step-summary" hidden></div>
+    </section>
+    <section class="inspector-pane" aria-label="步骤详情">
+      <div class="pane-heading inspector-heading"><h2>步骤详情</h2><span id="detail-step" class="muted">等待选择</span></div>
+      <div class="tabs" role="tablist" aria-label="详情分类"><button role="tab" id="tab-decision" data-tab="decision" aria-selected="true" aria-controls="detail-content" class="active">决策</button><button role="tab" id="tab-context" data-tab="context" aria-selected="false" aria-controls="detail-content" tabindex="-1">上下文</button><button role="tab" id="tab-memory" data-tab="memory" aria-selected="false" aria-controls="detail-content" tabindex="-1">Memory</button><button role="tab" id="tab-state" data-tab="state" aria-selected="false" aria-controls="detail-content" tabindex="-1">状态</button><button role="tab" id="tab-raw" data-tab="raw" aria-selected="false" aria-controls="detail-content" tabindex="-1">原始记录</button></div>
+      <div id="detail-content" class="detail-content" role="tabpanel" aria-labelledby="tab-decision"><div class="empty-state"><h3>每一步，都有据可查</h3><p>选中步骤，查看当时的输入、模型决策与执行结果。</p></div></div>
+    </section>
+  </main>
+  <dialog id="image-dialog" aria-label="截图大图"><div class="dialog-toolbar"><span id="dialog-title">页面截图</span><button id="close-dialog" class="button">关闭 <span class="muted">Esc</span></button></div><div class="zoom-stage"><img id="zoom-image" alt="当前选择步骤的完整截图"></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="/app.js" defer></script>
+</body>
+</html>

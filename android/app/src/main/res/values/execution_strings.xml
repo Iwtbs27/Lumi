@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_execution_files">Task folders</string>
+    <string name="pref_execution_files_unset">Choose a folder for file processing and saving results</string>
+    <string name="pref_execution_files_count">Authorized folders: %1$d</string>
+    <string name="pref_execution_add_folder">Add folder</string>
+    <string name="pref_execution_remove_folder">Remove folder access?</string>
+    <string name="pref_execution_remove">Remove access</string>
+    <string name="pref_execution_calendar">Calendar access</string>
+    <string name="pref_execution_calendar_unset">Allow tasks to read and update your device calendars</string>
+    <string name="pref_execution_calendar_ready">Read and write access granted; tasks can use available calendars</string>
+</resources>
